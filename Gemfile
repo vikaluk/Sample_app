@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker'         
 gem 'bcrypt',         '3.1.12'
 gem 'rails-controller-testing'
 gem 'bootstrap-sass', '3.3.7'
